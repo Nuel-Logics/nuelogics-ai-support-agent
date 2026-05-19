@@ -1,2 +1,12 @@
-# nuelogics-ai-support-agent
-AI customer support agent built with n8n, Gemini, Pinecone, and Postgres memory. Uses RAG to retrieve business knowledge, maintain conversational context, and automate customer support responses.
+# AI Customer Support Agent
+
+An AI-powered customer support system built with n8n, Gemini, Pinecone, and Postgres memory.
+
+## Features
+- RAG-powered retrieval
+- Conversational memory
+- Automated support responses
+- Knowledge base ingestion pipeline
+- Telegram delivery interface
+
+## Architecture
