@@ -29,7 +29,52 @@ Gemini generates response using retrieved knowledge
 Postgres stores conversation memory
 Response is returned instantly
 
-## Architecture
+## Workflow
 ![Architecture](assets/first-workflow.png)
 
 ![Architecture](assets/second-workflow-incomplete.png)
+
+## Tech Stack
+
+- n8n (Automation Engine)
+- Google Gemini (LLM + Embeddings)
+- Pinecone (Vector Database)
+- Postgres (Memory Storage)
+- Telegram API (User Interface)
+
+## Workflows Included
+
+1. Knowledge Base Ingestion
+Converts business documents into vector embeddings
+Stores them in Pinecone for retrieval
+
+2. Customer Support Agent
+Handles live user conversations
+Retrieves context-aware answers
+Maintains chat memory per user
+
+## Key Features
+
+- RAG-based retrieval system
+- Persistent conversation memory
+- Scalable support automation
+- Modular workflow design (ingestion vs runtime separation)
+- Instant response via messaging interface
+
+## Why This Matters
+
+This is not a chatbot.
+
+It is a support automation system that can:
+
+- Reduce support workload by 60–90%
+- Handle repetitive customer queries automatically
+- Scale customer communication without hiring
+
+## Current Improvements In Progress
+
+- Confidence scoring for answers
+- Smarter retrieval ranking
+- Automated knowledge base syncing
+- Hallucination reduction safeguards
+- Multi-channel support (WhatsApp, Web, Slack)
