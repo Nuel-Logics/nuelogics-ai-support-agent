@@ -10,3 +10,6 @@ An AI-powered customer support system built with n8n, Gemini, Pinecone, and Post
 - Telegram delivery interface
 
 ## Architecture
+![Architecture](assets/Telegram Customer Support.png)
+
+![Architecture](assets/Knowledge Base Ingestion Pipeline.png)
